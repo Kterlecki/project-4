@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<h1>Home</h1>
+	<h1>User login</h1>
 	<nav>
 		<ul>
 			<li><a href="{% url 'login'%}">Login </a> </li>
@@ -26,6 +26,11 @@
 		{% endfor %}
 	</div>
 	{%endif%}
+
+	<form method='POST'>
+		{{login_form}}
+        <button type='submit'>Login</button>
+	</form>
 </body>
 
 </html>
