@@ -37,3 +37,6 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+
+[![Build Status](https://travis-ci.com/Kterlecki/project-4.svg?branch=master)](https://travis-ci.com/Kterlecki/project-4)
